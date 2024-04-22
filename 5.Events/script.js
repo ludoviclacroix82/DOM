@@ -37,7 +37,7 @@ for (let actionSquare of actionSquares) {
 /**
  * Keybord Event
  * Key Space => change background-color
- * key i => delete log
+ * key l => delete log
  * key S => delete Square Clone 
  */
 window.addEventListener("keydown",(event) => {
@@ -46,7 +46,7 @@ window.addEventListener("keydown",(event) => {
     case " ": 
         changeBackgroundColor();
     break;
-    case "i": 
+    case "l": 
       deleteLog();
     break;
     case "s": 
@@ -105,8 +105,10 @@ function deleteSaqueClone(){
 
 }
 
+/**
+ * Montre la couleur du Square Clone survoler avec un title
+ */
 
-// Montre t la couleur du Square Clone survoler avec un title
 const actionSquaresClone = elemSection.querySelectorAll('.actionsquare');
 
 elemSection.addEventListener('mouseover',event =>{
