@@ -23,7 +23,7 @@ for (let i = 0; i < apprends.length; i++) {
     else
         elemArtcile.appendChild(elemSection);*/
 
-    const numRandom = Math.floor(Math.random() *elemArtcile.children.length-1);
+    const numRandom = Math.floor(Math.random() * elemArtcile.children.length-1);
     console.log(numRandom);
 
     if(i > 0 )
@@ -47,8 +47,8 @@ for (let i = 0; i < apprends.length; i++) {
 
 /**
  * Creé une couleur aléatoir et check si celle-ci est claire ou sombre
- *@var colorLigther -- Int:: calcule si celle-ci est claire ou sombre
- *@var color -- couleur en format RGB
+ *@const colorLigther -- Int:: calcule si celle-ci est claire ou sombre
+ *@const color -- couleur en format RGB
  * @returns les 2 const.
  */
 function rgbColor(){
